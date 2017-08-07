@@ -32,7 +32,7 @@ public class HelloController {
 		return mav;
 	}
 
-	@RequestMapping("op")
+	@RequestMapping("hello")
 	public ModelAndView hello() {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("hello");
